@@ -7,6 +7,7 @@
 //
 
 #import "OUViewController.h"
+#import "TestController.h"
 
 @interface OUViewController ()
 
@@ -18,6 +19,11 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    
+    TestController *vc = [[TestController alloc] init];
+    NSLog(@"%@", vc);
+    
+    
 }
 
 - (void)didReceiveMemoryWarning

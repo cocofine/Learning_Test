@@ -1,0 +1,16 @@
+PODS:
+  - Learning_test (0.1.0)
+
+DEPENDENCIES:
+  - Learning_test (from `../`)
+
+EXTERNAL SOURCES:
+  Learning_test:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Learning_test: a55f7af634891ae2592640d6c5fdbf15b8b04903
+
+PODFILE CHECKSUM: b805805f9d0e328dac705573fd5ecae783de6052
+
+COCOAPODS: 1.11.3
